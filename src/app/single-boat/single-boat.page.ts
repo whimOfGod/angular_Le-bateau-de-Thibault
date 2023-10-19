@@ -10,12 +10,12 @@ export class SingleBoatPage implements OnInit {
   boatName: any;
   boat:{
     name:string;
-    title:string;
+    type:string;
     description:string[];
     image: string;
     icon: string;
 
-  } = { name: '',title: '', description:[],image:'',icon:'', };
+  } = { name: '',type: '', description:[],image:'',icon:'', };
 
   constructor(private route: ActivatedRoute, private router: Router) {
     this.route.queryParams.subscribe((params) => {

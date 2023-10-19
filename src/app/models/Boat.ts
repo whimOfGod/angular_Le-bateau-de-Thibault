@@ -1,6 +1,6 @@
 export class Boat {
   name: string;
-  title?: string;
+  type?: string;
   image?: string;
   description?: string[];
   icon?: string;

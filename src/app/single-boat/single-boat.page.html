@@ -1,7 +1,8 @@
 <ion-content [fullscreen]="true">
   <div>
-    <h1 class="ion-text-center ion-padding" style="margin-bottom: 25%;"><em>{{boat.name}}</em></h1>
-    <img src="../../assets/images/{{boat.image}}" style="margin-bottom: 25%;" />
-    <p class="ion-text-center" *ngFor="let d of boat.description">{{d}}</p>
+    <h1 class="ion-text-center ion-padding" style="margin-bottom: 25%; "><em>{{boat.name}}</em></h1>
+    <img src="../../assets/images/{{boat.image}}" style="margin-bottom: 10%;"  />
+    <h5 class="ion-text-center" style="margin-bottom: 20%;" >{{boat.type}}</h5 >
+    <p class="ion-text-center" *ngFor="let description of boat.description">{{description}}</p>
   </div>
 </ion-content>

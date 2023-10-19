@@ -12,6 +12,7 @@ export class BoatsService {
   [
     {
       name: 'De la Brise',
+      type: 'XXX YYY 222',
       image: 'deLaBrise.png',
       icon: 'deLaBrise_icon.png',
       description: [
@@ -22,6 +23,7 @@ export class BoatsService {
     },
     {
       name: 'Saphir',
+      type: 'XXX YYY 222',
       image: 'saphir.png',
       icon: 'saphir_icon.png',
       description: [
@@ -32,6 +34,7 @@ export class BoatsService {
     },
     {
       name: 'Gast Micher',
+      type: 'XXX YYY 222',
       image: 'gastMicher.png',
       icon: 'gastMicher_icon.png',
       description: [
@@ -42,6 +45,7 @@ export class BoatsService {
     },
     {
       name: 'Aquilon',
+      type: 'XXX YYY 222',
       image: 'aquilon.png',
       icon: 'aquilon_icon.png',
       description: [
@@ -52,6 +56,7 @@ export class BoatsService {
     },
     {
       name: 'Lorem ipsum',
+      type: 'XXX YYY 222',
       image: 'ancre.png',
       icon: 'ancre.png',
       description: [
@@ -62,6 +67,7 @@ export class BoatsService {
     },
     {
       name: 'Lorem ipsum',
+      type: 'XXX YYY 222',
       image: 'ancre.png',
       icon: 'ancre.png',
       description: [

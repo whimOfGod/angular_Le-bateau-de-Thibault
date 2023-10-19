@@ -14,8 +14,7 @@ export class HomePage {
   logoRec: SafeResourceUrl;
   logoCont: SafeResourceUrl;
 
-  private swipeCoord?: [number, number];
-private swipeTime?: number;
+
 
   constructor(private router: Router, private sanitizer: DomSanitizer) {
     this.logoProd = this.sanitizer.bypassSecurityTrustResourceUrl('assets/images/poisson.png');
