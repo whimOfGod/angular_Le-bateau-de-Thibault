@@ -1,0 +1,30 @@
+<ion-content [fullscreen]="true">
+  <div>
+    <h1 class="ion-text-center ion-padding" style="margin-bottom: 30%;"><em>Vos Restaurants</em></h1>
+    <p class="ion-text-center ion-padding" style="margin-bottom: 30%;">
+      Vente en direct de notre bateau<br>
+      Produits selon la saison, livraisons sur Paris<br>
+      06.63.99.99.78<br>
+      lebateaudethibault@gmail.com<br>
+      www.facebook.com/lebatheaudethibault
+    </p>
+
+    <ion-grid class="grid-bottom">
+
+
+          <div style="width: 100%;">
+            <div class="wrapper">
+              <ion-button *ngFor="let restaurant of restaurantsList" (click)="onLoadRestaurant(restaurant)" expand="full" class="btn-product">
+                <p style="width: 100%;">{{restaurant.name}}</p>
+              </ion-button>
+            </div>
+          </div>
+
+
+
+    </ion-grid>
+
+  </div>
+
+
+</ion-content>

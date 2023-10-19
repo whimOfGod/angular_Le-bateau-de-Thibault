@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Machine à laver",
+    "description": [
+      "Volume : 6 Litres",
+      "Temps de lavage: 2 heures",
+      "Consommation : 173 kwh/an"
+    ],
+    "isOn": true
+  },
+  {
+    "name": "Télévision",
+    "description": [
+      "Dimensions: 40 pouces",
+      "Consommation : 22 kwh/an"
+    ],
+    "isOn": true
+  },
+  {
+    "name": "Ordinateur",
+    "description": [
+      "Marque: fait maison",
+      "Consommation : 500 kwh/an"
+    ],
+    "isOn": false
+  }
+]

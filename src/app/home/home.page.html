@@ -1,0 +1,128 @@
+<ion-content [fullscreen]="true">
+
+    <h1 class="ion-text-center ion-padding" style="margin-bottom: 30%;">Le bateau de Thibault</h1>
+    <p class="ion-text-center ion-padding" style="margin-bottom: 30%;">
+      Vente en direct de notre bateau<br>
+      Produits selon la saison, livraisons sur Paris<br>
+      06.63.99.99.78<br>
+      lebateaudethibault@gmail.com<br>
+      www.facebook.com/lebatheaudethibault
+    </p>
+
+    <ion-grid class="grid-bottom">
+
+
+          <div style="width: 100%;">
+            <div class="wrapper">
+              <ion-button  (click)="onGoToProducts()" expand="full" class="btn-product">
+                <img [src]="logoProd" width="45" height="45">
+
+                <p style="width: 100%;">Produits et promotions</p>
+              </ion-button>
+            </div>
+          </div>
+
+    </ion-grid>
+
+
+    <ion-grid class="grid-bottom">
+      <ion-row>
+        <ion-col size="6">
+
+          <div class="wrapper">
+
+            <ion-button (click)="onGoToBateaux()" expand="block"  class="btn-product">
+              <img [src]="logoBat" width="45" height="45">
+              Bateaux
+            </ion-button>
+          </div>
+
+        </ion-col>
+        <ion-col size="6">
+          <div class="wrapper">
+            <ion-button (click)="onGoToRestaurant()" expand="full" class="btn-product">
+              <img [src]="logoRest" width="45" height="45">
+             <p> Restaurants </p>
+            </ion-button>
+          </div>
+        </ion-col>
+      </ion-row>
+
+
+        <ion-row>
+          <ion-col size="6">
+            <div class="wrapper">
+              <ion-button (click)="onGoToRecipes()" expand="full" class="btn-product">
+                <img [src]="logoRec" width="45" height="45">
+               <p> Recettes </p>
+              </ion-button>
+            </div>
+          </ion-col>
+          <ion-col size="6">
+            <div class="wrapper">
+              <ion-button (click)="onGoToContact()" expand="full" class="transparent-button">
+                <img [src]="logoCont" width="45" height="45">
+                Contact
+              </ion-button>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+
+
+
+
+
+</ion-content>
+
+
+
+<!-- <ion-content [fullscreen]="true">
+  <div id="container">
+    <strong>Le bateau de Thibault</strong>
+    <p><b>Vente en direct de notre bateau</b><br>
+    <b>Produits selon la saison, Livraison sur Paris</b><br>
+    06.07.08.09.10<br>
+    lebateaudethibault@gmail.com<br>
+    www.facebook.com/lebateaudethibault
+    </p>
+
+
+    <ion-grid class="bottom-buttons">
+      <ion-row>
+        <ion-button (click)="onGoToProducts()" class="transparent-button">
+          <img [src]="logoProd" width="45" height="45">
+          Produits et promotions
+        </ion-button>
+
+        <ion-col size="6">
+          <ion-button (click)="onGoToBateaux()" expand="block" class="transparent-button">
+            <img [src]="logoBat" width="45" height="45">
+            Bateaux
+          </ion-button>
+        </ion-col>
+        <ion-col size="6">
+          <ion-button (click)="onGoToRestaurant()" expand="full" class="transparent-button">
+            <img [src]="logoRest" width="45" height="45">
+            Restaurants
+          </ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="6">
+          <ion-button expand="full" (click)="onGoToRecipes()" class="transparent-button">
+            <img [src]="logoRec" width="45" height="45">
+            Recettes
+          </ion-button>
+        </ion-col>
+        <ion-col size="6">
+          <ion-button (click)="onGoToContact()" expand="full" class="transparent-button">
+            <img [src]="logoCont" width="45" height="45">
+            Contact
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content> -->
